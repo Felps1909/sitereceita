@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Site Receitas | Home</title>
+  </head>
+  <body>
+    <script src="jquery-3.5.1.min.js">
+      $('.carousel').carousel({
+          interval: 2000
+      })
+    </script>
+    <div class="container">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Stonk's Recipe</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+              <a class="nav-item nav-link" href="receita.html">Receitas</a>
+              <a class="nav-item nav-link active" href="video.html">Video</a>
+              <a class="nav-item nav-link" href="contato.html">Contato</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div>
+          <h2 class="text-center mt-5">Confira algumas receitas em videos</h2>
+
+          <section class="d-flex flex-column  align-items-center">
+            <div>
+              <iframe
+                width="798"
+                height="449"
+                src="https://www.youtube.com/embed/xfZ4NIcRO-c"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="mt-5">
+              <iframe
+                width="798"
+                height="449"
+                src="https://www.youtube.com/embed/KzhC-7XTRvc"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
